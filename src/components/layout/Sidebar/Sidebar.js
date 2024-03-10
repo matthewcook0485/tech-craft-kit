@@ -35,6 +35,9 @@ const Sidebar = () => {
           </ul>
         </li>
         <li>
+          <a href="/games/breakout">Breakout</a>
+        </li>
+        <li>
           <a href="/about">About</a>
         </li>
       </ul>

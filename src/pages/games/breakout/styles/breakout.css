@@ -1,0 +1,85 @@
+/* breakout.css */
+
+.breakout-game {
+    position: relative;
+    width: 600px; /* Adjust according to your design */
+    height: 400px; /* Adjust according to your design */
+    margin: 0 auto; /* Center the game */
+    border: 1px solid #000; /* Add border for visualization */
+  }
+  /* Add this to breakout.css */
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000; /* Adjust color as needed */
+    border-radius: 50%; /* Make it round */
+    top: 50%; /* Adjust position as needed */
+    left: 50%; /* Adjust position as needed */
+    transform: translate(-50%, -50%); /* Center the ball */
+  }
+  /* Add this to breakout.css */
+
+.paddle {
+    position: absolute;
+    width: 100px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    background-color: #0000ff; /* Adjust color as needed */
+    bottom: 10px; /* Adjust position as needed */
+    left: 50%; /* Center the paddle horizontally */
+    transform: translateX(-50%); /* Center the paddle horizontally */
+  }
+  /* Add this to breakout.css */
+
+.brick {
+    width: 50px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    background-color: #00ff00; /* Adjust color as needed */
+    margin: 5px; /* Adjust spacing between bricks */
+    display: inline-block;
+  }
+  /* Add this to breakout.css */
+
+.scoreboard {
+    position: absolute;
+    top: 10px; /* Adjust position as needed */
+    right: 10px; /* Adjust position as needed */
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  /* Add this to breakout.css */
+
+.high-scores {
+    position: absolute;
+    top: 50%; /* Adjust position as needed */
+    left: 50%; /* Adjust position as needed */
+    transform: translate(-50%, -50%); /* Center the high scores */
+    text-align: center;
+  }
+  
+  .high-scores h2 {
+    margin-bottom: 10px;
+  }
+  
+  .high-scores ol {
+    padding-left: 0;
+  }
+  
+  .high-scores li {
+    list-style: none;
+  }
+  /* Add this to breakout.css */
+
+/* Add this to ../styles/breakout.css */
+
+.start-screen {
+  position: absolute;
+  top: 50%; /* Adjust position as needed */
+  left: 50%; /* Adjust position as needed */
+  transform: translate(-50%, -50%); /* Center the start screen */
+  text-align: center;
+}
+
+.start-screen h1 {
+  margin-bottom: 20px;
+}

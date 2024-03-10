@@ -7,6 +7,7 @@ import JsonBeautifier from './pages/tools/JsonBeautifier';
 import SqlBeautifier from './pages/tools/SqlBeautifier';
 import Content from './components/layout/Content';
 import About from './pages/tools/About';
+import BreakoutGame from './pages/games/breakout/components/BreakoutGame';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
                   <Route path="/tools/json-beautifier" element={<JsonBeautifier />} />
                   <Route path="/tools/sql-beautifier" element={<SqlBeautifier />} />
                   <Route path="/about" element={<About />} />
+                  <Route path="/games/breakout" element={<BreakoutGame />} />
                 </Routes>
               </div>
             </div>
