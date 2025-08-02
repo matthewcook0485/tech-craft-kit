@@ -32,6 +32,9 @@ const Sidebar = () => {
             <li>
               <a href="/tools/sql-beautifier">SQL Beautifier</a>
             </li>
+            <li>
+              <a href="/tools/ai-playground">AI Playground</a>
+            </li>
           </ul>
         </li>
         <li>
