@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrumPoker from './pages/tools/ScrumPoker';
 import JsonBeautifier from './pages/tools/JsonBeautifier';
 import SqlBeautifier from './pages/tools/SqlBeautifier';
+import AiPlayground from './pages/tools/AiPlayground';
 import Content from './components/layout/Content';
 import About from './pages/tools/About';
 import BreakoutGame from './pages/games/breakout/components/BreakoutGame';
@@ -25,6 +26,7 @@ function App() {
                   <Route path="/tools/scrum-poker" element={<ScrumPoker />} />
                   <Route path="/tools/json-beautifier" element={<JsonBeautifier />} />
                   <Route path="/tools/sql-beautifier" element={<SqlBeautifier />} />
+                  <Route path="/tools/ai-playground" element={<AiPlayground />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/games/breakout" element={<BreakoutGame />} />
                 </Routes>
